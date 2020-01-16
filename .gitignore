@@ -1,0 +1,6 @@
+.DS_Store
+*.pyc
+__pycace__/
+.tox/
+.eggs/
+voidnologo_ghactions.egg-info/
