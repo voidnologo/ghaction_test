@@ -1,4 +1,5 @@
 from x import add
+from x import multiply
 
 
 def test_add_ints():
@@ -11,3 +12,15 @@ def test_add_strs():
 
 def test_add_lists():
     assert add(['a'], ['b']) == ['a', 'b']
+
+
+def test_multiply_ints():
+    assert multiply(1, 2) == 2
+
+
+def test_multiply_str():
+    assert multiply('a', 3) == 'aaa'
+
+
+def test_multiply_list():
+    assert multiply(['a'], 3) == ['a', 'a', '']
