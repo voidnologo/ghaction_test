@@ -24,3 +24,7 @@ def test_multiply_str():
 
 def test_multiply_list():
     assert multiply(['a'], 3) == ['a', 'a', '']
+
+
+def test_passes():
+    assert True
